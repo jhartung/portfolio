@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Joel Hartung's Personal Portfolio</title>
+
+        <!-- Stylesheet references -->
+        <link rel="stylesheet" href="site.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Special+Elite&display=swap" rel="stylesheet" />
+
+        <!-- JavaScript references -->
+        <script src="header.js"></script>
+        <script src="footer.js"></script>
+    </head>
+    <body>
+        <header-component></header-component>
+
+        <div class="assign-container">
+            <h1 class="app-header">My name is Joel. Nice to meet you.</h1>
+            <div class="assign-content">
+                <div class="card">
+                     <div class="card-content">
+                        <img class="medium" src="./images/scotland.jpg" alt="scotland">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">My Bucket list</div>
+                        <ul id="bucket-list">
+                            <li><input type="checkbox" class="strikethrough"><span>Write a novel</span></input></li>
+                            <li><input type="checkbox" class="strikethrough" checked><span>Finish reading "IT" by Stephen King</span></input></li>
+                            <li><input type="checkbox" class="strikethrough"><span>Record an album</span></input></li>
+                            <li><input type="checkbox" class="strikethrough" checked><span>Travel to Europe</span></input></li>
+                            <li><input type="checkbox" class="strikethrough"><span>Retire?</span></input></li>
+                            <li><input type="checkbox" class="strikethrough" checked><span>High five a tree</span></input></li>
+                            <li><input type="checkbox" class="strikethrough"><span>Invent something useless</span></input></li>
+                            <li><input type="checkbox" class="strikethrough"><span>Get a platinum trophy in a video game</span></input></li>
+                            <li><input type="checkbox" class="strikethrough" checked><span>High five a tree (again)</span></input></li>
+                        </ul>
+                    </div>                   
+                </div>
+            </div>
+            <br />
+        </div>
+        <footer-component></footer-component>
+    </body>
+</html>

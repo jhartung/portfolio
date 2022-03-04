@@ -1,3 +1,13 @@
+/*
+============================================
+; Title: Personal Portfolio
+; Author: Joel Hartung
+; Date: 4 March 2022
+; Description: Joel's Personal Portfolio header.js
+;===========================================
+*/
+
+
 class Header extends HTMLElement {
     constructor() {
         super();
@@ -6,7 +16,7 @@ class Header extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <div id="banner">
-                <img src="./images/joel_logo.png" alt="Joel-Hartung" id="banner-image">
+               <a href="index.html"><img src="./images/joel_logo.png" alt="Joel-Hartung" id="banner-image"></a>
             </div>
 
             <div id="nav-container">

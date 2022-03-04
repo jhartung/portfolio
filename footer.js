@@ -1,3 +1,12 @@
+/*
+============================================
+; Title: Personal Portfolio
+; Author: Joel Hartung
+; Date: 4 March 2022
+; Description: Joel's Personal Portfolio footer.js
+;===========================================
+*/
+
 class Footer extends HTMLElement {
     constructor() {
         super();

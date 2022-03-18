@@ -324,3 +324,15 @@ hr {
     height: auto;
 
 }
+
+.img-pointer {
+    cursor: pointer;
+}
+
+.content-row {
+    padding: 10px;
+}
+
+.image-caption {
+    text-align: center;
+}

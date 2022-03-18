@@ -34,7 +34,7 @@ class Header extends HTMLElement {
                     </li> 
                     <span>|</span>
                     <li>
-                        <a href="hartung-diagrams.html">Database Diagrams</a>
+                        <a href="database-diagrams.html">Database Diagrams</a>
                     </li>
                     <span>|</span>
                     <li>

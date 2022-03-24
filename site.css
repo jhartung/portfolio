@@ -336,3 +336,7 @@ hr {
 .image-caption {
     text-align: center;
 }
+
+.diagram {
+    height: 10px;
+}

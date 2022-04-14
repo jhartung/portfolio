@@ -46,45 +46,70 @@
                     <div class="card-title">School Projects</div>
                         <br class ="card-content">
                          <!-- Gallery -->
-                          <div class="row content-row" id="gallery">
+                          <div class="row content-row" id="gallery" data-toggle="modal" data-target="#exampleModal">
                             <div class="col-12 col-sm-6 col-lg-3">
-                              <a href="./api-test-units/assignment_4.2_swagger.jpg">
-                              <img class="w-100 img-pointer card diagram" src="./api-test-units/assignment_4.2_swagger.jpg">
+                              <img class="w-100 img-pointer card diagram" src="./api-test-units/assignment_4.2_swagger.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="0">
                               <p class="image-caption">Assignment 4.2 Swagger Test</p>
-                              </a>
                             </div>
                             <div class="col-12 col-sm-6 col-lg-3">
-                              <a href="./api-test-units/assignment_4.2_soapui1.jpg">
-                              <img class="w-100 img-pointer card diagram" src="./api-test-units/assignment_4.2_soapui1.jpg">
+                              <img class="w-100 img-pointer card diagram" src="./api-test-units/assignment_4.2_soapui1.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="1">
                               <p class="image-caption">Assignment 4.2 SoapUI Test</p>
-                              </a>
                             </div>
                             <div class="col-12 col-sm-6 col-lg-3">
-                              <a href="./api-test-units/assignment_4.2_soapui2.jpg">
-                              <img class="w-100 img-pointer card diagram" src="./api-test-units/assignment_4.2_soapui2.jpg">
+                              <img class="w-100 img-pointer card diagram" src="./api-test-units/assignment_4.2_soapui2.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="2">
                               <p class="image-caption">Assignment 4.2 SoapUI Test</p>
-                              </a>
                             </div>
                             <div class="col-12 col-sm-6 col-lg-3">
-                              <a href="./api-test-units/assignment_5.2_swagger_post_test.jpg">
-                              <img class="w-100 img-pointer card diagram" src="./api-test-units/assignment_5.2_swagger_post_test.jpg">
+                              <img class="w-100 img-pointer card diagram" src="./api-test-units/assignment_5.2_swagger_post_test.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="3">
                               <p class="image-caption">Assignment 5.2 Swagger Post Test</p>
-                              </a>
                             </div>
                             <div class="col-12 col-sm-6 col-lg-3">
-                              <a href="./api-test-units/assignment_5.2_SoapUI_get_test.jpg">
-                              <img class="w-100 img-pointer card diagram" src="./api-test-units/assignment_5.2_SoapUI_get_test.jpg">
+                              <img class="w-100 img-pointer card diagram" src="./api-test-units/assignment_5.2_SoapUI_get_test.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="4">
                               <p class="image-caption">Assignment 5.2 SoapUI Get Test</p>
-                              </a>
                             </div>
                             <div class="col-12 col-sm-6 col-lg-3">
-                              <a href="./api-test-units/assignment_5.2_SoapUI_post_test.jpg">
-                              <img class="w-100 img-pointer card diagram" src="./api-test-units/assignment_5.2_SoapUI_post_test.jpg">
+                              <img class="w-100 img-pointer card diagram" src="./api-test-units/assignment_5.2_SoapUI_post_test.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="5">
                               <p class="image-caption">Assignment 5.2 SoapUI Post Test</p>
-                              </a>
                             </div>
                           </div>
-                          <br />                            
+                          <br />
+
+                          <!-- Modal -->
+                          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-body">
+                                  <!-- Carousel -->
+                                  <div id="carouselExample" class="carousel carousel-dark" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img src="./api-test-units/assignment_4.2_swagger.jpg" class="d-block" alt="Swagger Test">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="./api-test-units/assignment_4.2_soapui1.jpg" class="d-block" alt="SoapUI Test 1">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="./api-test-units/assignment_4.2_soapui2.jpg" class="d-block" alt="SoapUI Test 2">
+                                      </div>
+                                      <div class="carousel-item active">
+                                        <img src="./api-test-units/assignment_5.2_swagger_post_test.jpg" class="d-block" alt="Swagger Post Test">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="./api-test-units/assignment_5.2_SoapUI_get_test.jpg" class="d-block" alt="SoapUI Get Test">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="./api-test-units/assignment_5.2_SoapUI_post_test.jpg" class="d-block" alt="SoapUI Post Test">
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                            
                         </div>   
                          <br />
                     <a href="index.html" class="return-home">Return</a>

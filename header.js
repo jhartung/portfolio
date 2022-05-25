@@ -42,6 +42,10 @@ class Header extends HTMLElement {
                     </li>
                     <span>|</span>
                     <li>
+                        <a href="devops-presentations.html">DevOps Presentations</a>
+                    </li>
+                    <span>|</span>
+                    <li>
                         <a href="resume.html">Resume</a>
                     </li>
                 </ul>
